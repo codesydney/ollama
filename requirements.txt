@@ -1,0 +1,6 @@
+ollama
+pillow
+requests
+streamlit
+crewai
+langchain
