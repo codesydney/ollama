@@ -112,7 +112,7 @@ def print_sample_embeddings(texts, embeddings):
 
 # Set up Ollama model for chat
 llm = Ollama(
-    model="gemma2:2b",  # Using Gemma 2B model
+    model="mannix/gemma2-2b:latest",  # Using Gemma 2B model
     temperature=TEMPERATURE
 )
 
